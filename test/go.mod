@@ -1,11 +1,11 @@
-module github.com/wowchemy/wowchemy-hugo-modules/test
+module github.com/acreegan/wowchemy-hugo-modules/test
 
 go 1.15
 
 require (
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy main
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms main
+	github.com/acreegan/wowchemy-hugo-modules/wowchemy main
+	github.com/acreegan/wowchemy-hugo-modules/wowchemy-cms main
 )
 
-replace github.com/wowchemy/wowchemy-hugo-modules/wowchemy => ../wowchemy
-replace github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms => ../wowchemy-cms
+replace github.com/acreegan/wowchemy-hugo-modules/wowchemy => ../wowchemy
+replace github.com/acreegan/wowchemy-hugo-modules/wowchemy-cms => ../wowchemy-cms
